@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">Thenmozhi</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Skills</a></li>
+          <li><a href="#Hackathon">Hackathon</a></li>
+          <li><a href="#Internship">Internship</a></li>
+          <li><a href="#Publications">Publications</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Thenmozhi/div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Skills</a></li>
+          <li><a href="#Hackathon" onclick="toggleMenu()">Hackathon</a></li>
+          <li><a href="#Internship" onclick="toggleMenu()">Internship</a></li>
+          <li><a href="#Publications" onclick="toggleMenu()">Publications</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="assets\Thenmozhi-pic-modified.png" alt="profile picture" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">Thenmozhi</h1>
+        <p class="section__text__p2">ML Engineer</p>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="location.href='https://drive.google.com/file/d/1XpXfQz7n7vGJsGqiqm7hk9nK8qowEcWq/view?usp=sharing'"
+          >
+            Download CV
+          </button>
+          <button class="btn btn-color-2" onclick="location.href='./#contact'">
+            Contact Info
+          </button>
+        </div>
+        <div id="socials-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="My LinkedIn profile"
+            class="icon"
+            onclick="location.href='https://www.linkedin.com/in/then-mozhi-s/'"
+          />
+          <img
+            src="./assets/github.png"
+            alt="My Github profile"
+            class="icon"
+            onclick="location.href='https://github.com/thenu2003'"
+          />
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <div class="text-container">
+                <p>
+                  Thenmozhi is a skilled professional with expertise in machine learning, data analysis. As a participant in the prestigious Smart India Hackathon and Rajasthan Police Hackathon as a Finalist among 500 teams, excels in solving real-world challenges through innovative solutions. The experience includes advanced neural networks and scalable system development. Committed to continuous growth, I deliver impactful, user-focused results.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#experience'"
+      />
+    </section>
+    <section id="experience">
+      <p class="section__text__p1">Explore My</p>
+      <h1 class="title">  Skills - Programming</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">Languages</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Java</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Python</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>MySQL</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Dart</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="experience-sub-title">Framework/Tools</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Streamlit</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Django</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Flask</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Git</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>PowerBI</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>MS-Excel</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#experienc'"
+      />
+    </section>
+    
+    <section id="Hackathon">
+      <p class="section__text__p1">Browse My Recent</p>
+      <h1 class="title">Hackathon</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="assets\SIH.jpg"
+                alt="Hackathon 1"
+                class="hackathon-img"
+              />
+            </div>
+            <h2 class="experience-sub-title hackathon-title">Smart India Hackathon - 2023</h2>
+            <p class="hackathon-description">
+              This disaster management platform centralizes agency and employee data, enabling collaboration through live location broadcasting, AI-driven search, and map visualizations. The Response Hub facilitates emergency rooms, secure communications, and automated agency inclusion based on disaster details.
+              <br /><br />
+              <strong>Tech Stack:</strong> Flutter, Dart ,Rest API,Firebase , Gemini - API
+            </p>
+            
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 hackathon-btn"
+                onclick="location.href='https://drive.google.com/file/d/1dETrSA6RbpgT7v1EtnfToXVkVVVrIuDH/view?usp=sharing'"
+              >
+                About the Project
+              </button>
+              <button
+                class="btn btn-color-2 hackathon-btn"
+                onclick="location.href='https://github.com/Sundhar22/SIH-2023'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 hackathon-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Certificate
+              </button>
+            </div>
+          </div>
+    
+          <!-- Repeat for other hackathons -->
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="assets\m.jpg"
+                alt="Hackathon 2"
+                class="hackathon-img"
+              />
+            </div>
+            <h2 class="experience-sub-title hackathon-title">Rajastan Police Hackathon 1.0</h2>
+            <p class="hackathon-description">
+              Developed a dynamic PowerBI dashboard integrated with machine learning
+              models for identifying IPC and CRPC sections, analyzing legal data trends.
+              Created visualizations of case occurrences across different city regions,
+              utilizing PowerBI to display trends and patterns in both English and Hindi
+              documents with OCR support, along with voice text input.
+              <br /><br />
+              <strong>Tech Stack:</strong> Python, Django,Machine Learning , Mongo-DB, LLM - Model
+            </p>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 hackathon-btn"
+                onclick="location.href='https://drive.google.com/file/d/1lnsEPjb1G7xymCCPM2QOzxKjI2bqeug4/view?usp=drive_link'"
+              >
+                About the Project
+              </button>
+              <button
+                class="btn btn-color-2 hackathon-btn"
+                onclick="location.href='https://github.com/thenu2003/RJPOLICE_HACK_595_CYBERTECH_4'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 hackathon-btn"
+                onclick="location.href='https://drive.google.com/file/d/1d9_aKY7T30iXLkuqhKjC5eN5sQWI-fZc/view?usp=sharing'"
+              >
+                Certificate
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#Hackathon'"
+      />
+    </section>
+    <section id="Internship">
+      <p class="section__text__p1">Browse My Recent</p>
+      <h1 class="title">Industrial Experience</h1>
+      <div class="experience-details-container">
+        <div class="internship-container">
+          <div class="internship-details">
+            <div class="internship-header">
+              <h2 class="internship-title">Internship</h2>
+              <img
+                src="assets/blaze"
+                alt="Internship at Blaze Web Services"
+                class="internship-img"
+              />
+            </div>
+            <h2 class="internship-company">Blaze Web Services</h2>
+            <p class="internship-description">
+              Developed and deployed a data analytics dashboard using Django, focused
+              on stock market data visualization and analysis. Created interactive graphs to track stock price trends, allowing for easy
+              identification of high and low-performing stocks based on real-time data.
+              <br /><br />
+              <strong>Tech Stack:</strong> Python, Django, Pyplot, Git
+            </p>
+            <div class="internship-btn-container">
+              <button
+                class="btn internship-btn"
+                onclick="location.href='https://docs.google.com/document/d/1-6AihsWbQF3pbFj146EKCrDzFh8l5tLIwvpzdqFg7Zo/edit?usp=sharing'"
+              >
+                About the Project
+              </button>
+              <button
+                class="btn internship-btn"
+                onclick="location.href='https://github.com/thenu2003/Blaze_intern'"
+              >
+                Github
+              </button>
+              <button
+                class="btn internship-btn"
+                onclick="location.href='https://drive.google.com/file/d/1Q5VJuPhko-DAQFMb2dolis86GufsAhpF/view?usp=sharing'"
+              >
+                Certificate
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#Internship'"
+      />
+    </section>
+    <section id="Publications">
+      <p class="section__text__p1">Browse My Recent</p>
+      <h1 class="title">Publications</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="assets\ieee.png"
+                alt="Hackathon 1"
+                class="hackathon-img"
+              />
+            </div>
+            <h2 class="experience-sub-title hackathon-title">IEEE</h2>
+
+            <p class="hackathon-description">
+              This study introduces a smart Public Distribution System (PDS) leveraging a user-friendly mobile app to enable consumers to order commodities from home. The app allows users to check item availability, place orders on a first-come, first-served (FCFS) basis, and make secure payments via Unified Payments Interface (UPI).
+            </p>
+            
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 hackathon-btn"
+                onclick="location.href='https://ieeexplore.ieee.org/document/10369544'"
+              >
+                IEEE Link
+              </button>
+              <button
+                class="btn btn-color-2 hackathon-btn"
+                onclick="location.href='https://drive.google.com/file/d/122GPUtAjFX5-dpy_qUlR6sb1xPJiYS8f/view?usp=drive_link'"
+              >
+                Certificate
+              </button>
+            </div>
+          </div>
+    
+          <!-- Repeat for other hackathons -->
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="assets\ipc.png"
+                alt="Hackathon 2"
+                class="hackathon-img"
+              />
+            </div>
+            <h2 class="experience-sub-title hackathon-title">Intellectual Property India</h2>
+            <p class="hackathon-description">
+              Developed a dynamic PowerBI dashboard integrated with machine learning
+              models for identifying IPC and CRPC sections, analyzing legal data trends.
+              Created visualizations of case occurrences across different city regions,
+              utilizing PowerBI to display trends and patterns in
+              documents with OCR support, along with voice text input.
+            </p>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 hackathon-btn"
+                onclick="location.href='https://iprsearch.ipindia.gov.in/PatentSearch/PatentSearch/ViewApplicationStatus'"
+              >
+                Patent Link
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#Publications'"
+      />
+    </section>
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="./assets/email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="mailto:thenmozhis209@gmail.com">thenmozhis209@gmail.com</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://www.linkedin.com/in/then-mozhi-s/">LinkedIn</a></p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+          <li><a href="#experience">Skills</a></li>
+          <li><a href="#Hackathon">Hackathon</a></li>
+          <li><a href="#Internship">Internship</a></li>
+          <li><a href="#Publications">Publications</a></li>
+          <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; 2024 THENMOZHI S. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
